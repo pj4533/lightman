@@ -13,7 +13,8 @@
     "npm": "1.1.65"
   },
   "dependencies": {
-    "spooky": "~0.2.0"
+    "spooky": "~0.2.0",
+    "commander": "*"
   },
   "devDependencies": {
   }
