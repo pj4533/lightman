@@ -6,4 +6,10 @@ Hi, Lightman!
 ![Lightman](http://images.paxholley.net/blog/geeks/david_lightman.jpg)
 
 
-Pretty much a newb at Node/Javascript/AllThingsWeb so be gentle!
+Make sure to install CasperJS with:  
+
+brew install casperjs
+
+
+
+** Pretty much a newb at Node/Javascript/AllThingsWeb so be gentle! **
