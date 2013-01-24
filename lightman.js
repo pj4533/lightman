@@ -27,8 +27,8 @@ world(function(world) {
     certificates.createDistrobutionCertificate(program.csr);    
   } else if (program.args[0] == "createAppID") {
     appids.createNewAppID(program.bundlename,program.bundleid);
-  } else if (program.args[0] == "listAppIDs") {
-    appids.listAppIDs();
+  } else if (program.args[0] == "configureAppIDForDistPush") {
+    appids.configureAppIDForDistPush(program.csr,program.bundlename);
   }
   
   // // say cheeze!
