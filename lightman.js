@@ -9,10 +9,9 @@ program.version('0.0.1')
   .option('-c, --csr [csr file]', 'Use csr file')
   .parse(process.argv);
 
-var world = require('./world').World;
-
-var certificates = require('./certificates');
-var authentication = require('./authentication');
+var world = require('./lib/world').World;
+var certificates = require('./lib/certificates');
+var authentication = require('./lib/authentication');
 
 world(function(world) {
 
