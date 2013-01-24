@@ -6,9 +6,11 @@ Hi, Lightman!
 ![Lightman](http://images.paxholley.net/blog/geeks/david_lightman.jpg)
 
 
-Make sure to install CasperJS with:  
+Make sure to install CasperJS/PhantomJS with:  
 
 brew install casperjs
+
+TODO:  figure out a way to include casperjs via npm?
 
 
 

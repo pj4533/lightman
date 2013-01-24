@@ -14,8 +14,7 @@
   },
   "dependencies": {
     "spooky": "~0.2.0",
-    "commander": "*",
-    "phantomjs": "*"
+    "commander": "*"
   },
   "devDependencies": {
   }
