@@ -46,10 +46,12 @@ Supported Commands:
 
 ### Other Stuff:
 
-I also include some shell scripts for doing things like:
-* creating a CSR
-* importing a certificate
-* exporting a p12 certificate
+* I also include some shell scripts for doing things like:
+  * creating a CSR
+  * importing a certificate
+  * exporting a p12 certificate
+* Lightman was created as part of the [EverTrue](http://www.evertrue.com) 2013 winter hackathon.
+* I prefer working in objective-C, this javascript stuff scares me.
 
 
 # Very in development, probably won't work
