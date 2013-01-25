@@ -18,17 +18,20 @@ var appids = require('./lib/appids');
 
 world(function(world) {
 
-  console.log(program.args[0]);
-  authentication.login(program.username,program.password,program.team);
+  if (program.args[0] == "listTeams") {
+      authentication.listTeams(program.username,program.password);
+  } else {
+    authentication.login(program.username,program.password,program.team);
 
-  if (program.args[0] == "createDevCert") {
-    certificates.createDevelopmentCertificate(program.csr);    
-  } else if (program.args[0] == "createDistCert") {
-    certificates.createDistrobutionCertificate(program.csr);    
-  } else if (program.args[0] == "createAppID") {
-    appids.createNewAppID(program.bundlename,program.bundleid);
-  } else if (program.args[0] == "configureAppIDForDistPush") {
-    appids.configureAppIDForDistPush(program.csr,program.bundlename);
+    if (program.args[0] == "createDevCert") {
+      certificates.createDevelopmentCertificate(program.csr);    
+    } else if (program.args[0] == "createDistCert") {
+      certificates.createDistrobutionCertificate(program.csr);    
+    } else if (program.args[0] == "createAppID") {
+      appids.createNewAppID(program.bundlename,program.bundleid);
+    } else if (program.args[0] == "configureAppIDForDistPush") {
+      appids.configureAppIDForDistPush(program.csr,program.bundlename);
+    }     
   }
   
   // // say cheeze!
