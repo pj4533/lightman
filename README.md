@@ -1,10 +1,11 @@
-
 Lightman : Node based CLI for the Apple Developer Center
 ========
 
 Hi, Lightman!
 
 ![Lightman](http://images.paxholley.net/blog/geeks/david_lightman.jpg)
+
+Lightman uses an inception level of javascript libraries.   [Spooky.js](https://github.com/WaterfallEngineering/SpookyJS) is the node flavor of [Casper.js](https://github.com/n1k0/casperjs), which is a higher level library for [Phantom.js](https://github.com/ariya/phantomjs)! YIKES.  Should you still want to install:
 
 
     npm install -g lightman
@@ -42,5 +43,13 @@ Supported Commands:
 * configureAppIDForDistPush - configure app id for push (username, password, team, csr, bundle name)
 * listTeams - list teams you belong to (username, password)
  
+
+### Other Stuff:
+
+I also include some shell scripts for doing things like:
+* creating a CSR
+* importing a certificate
+* exporting a p12 certificate
+
 
 # Very in development, probably won't work
