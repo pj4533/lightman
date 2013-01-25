@@ -6,8 +6,11 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/pj4533/lightman"
   },
+  "bin": {
+     "lightman": "./bin/lightman"
+   },
   "engines": {
     "node": "0.8.14",
     "npm": "1.1.65"
