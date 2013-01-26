@@ -55,6 +55,3 @@ Commands:
   * exporting a p12 certificate
 * Lightman was created as part of the [EverTrue](http://www.evertrue.com) 2013 winter hackathon.
 * I prefer working in objective-C, this javascript stuff scares me.
-
-
-# Very in development, probably won't work
