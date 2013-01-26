@@ -3,7 +3,7 @@ Lightman : Node based CLI for the Apple Developer Center
 
 Hi, Lightman!
 
-![Lightman](http://images.paxholley.net/blog/geeks/david_lightman.jpg)
+![Lightman](https://dl.dropbox.com/u/2836123/melvin_wargames.jpg)
 
 Lightman uses an [Inception](http://4.bp.blogspot.com/_OORyagu8ETY/TE9PNl1Qq4I/AAAAAAAABqQ/_HJ5lfqLNZA/s1600/INCEPTION_WTF_CHART_150.jpg) level of javascript libraries.   [Spooky.js](https://github.com/WaterfallEngineering/SpookyJS) is the node flavor of [Casper.js](https://github.com/n1k0/casperjs), which is a higher level library for [Phantom.js](https://github.com/ariya/phantomjs)! YIKES.  Should you still want to install:
 
