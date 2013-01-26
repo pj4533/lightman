@@ -20,7 +20,7 @@ Lightman uses an inception level of javascript libraries.   [Spooky.js](https://
 Lightman usage:
 
 ````
- Usage: lightman [options] <command>
+Usage: lightman [options] <command>
 
   Options:
 
@@ -30,19 +30,18 @@ Lightman usage:
     -c, --csr [csr file]             Use csr file
     -bn, --bundlename [bundle name]  Use bundle name
     -bi, --bundleid [bundle id]      Use bundle id
+
+  Commands:
+
+    login - logs you in (saves to keychain)
+    logout
+    cert:create:dev - create development certificate (REQ: csr OPTIONAL: team)
+    cert:create:dist - create distribution certificate (REQ: csr OPTIONAL: team)
+    appid:create - create app id (REQ: bundlename,bundleid OPTIONAL: team)
+    appid:configure:push - configure app id for push (REQ: bundlename,csr OPTIONAL: team)
+    team:list - list teams you belong to
     
 ````
-
-Supported Commands:
-
-* login - logs you in (saves to keychain)
-* logout
-* cert:create:dev - create development certificate (REQ: csr  OPTIONAL: team)
-* cert:create:dist - create distribution certificate (REQ: csr  OPTIONAL: team)
-* appid:create - create app id (REQ: bundlename,bundleid  OPTIONAL: team)
-* appid:configure:push - configure app id for push (REQ: bundlename,csr  OPTIONAL: team)
-* team:list - list teams you belong to
- 
 
 ### Other Stuff:
 
