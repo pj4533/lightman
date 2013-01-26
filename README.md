@@ -37,11 +37,11 @@ Supported Commands:
 
 * login - logs you in (saves to keychain)
 * logout
-* certs:create:dev - create development certificate (REQ: csr  OPTIONAL: team)
-* certs:create:dist - create distribution certificate (REQ: csr  OPTIONAL: team)
+* cert:create:dev - create development certificate (REQ: csr  OPTIONAL: team)
+* cert:create:dist - create distribution certificate (REQ: csr  OPTIONAL: team)
 * appid:create - create app id (REQ: bundlename,bundleid  OPTIONAL: team)
 * appid:configure:push - configure app id for push (REQ: bundlename,csr  OPTIONAL: team)
-* teams:list - list teams you belong to
+* team:list - list teams you belong to
  
 
 ### Other Stuff:
