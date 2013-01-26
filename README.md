@@ -27,7 +27,7 @@ Options:
 
   -h, --help                       output usage information
   -V, --version                    output the version number
-  -t, --team [team]                Use team
+  -t, --team [team id]             Use team id
   -c, --csr [csr file]             Use csr file
   -bn, --bundlename [bundle name]  Use bundle name
   -bi, --bundleid [bundle id]      Use bundle id
