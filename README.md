@@ -26,8 +26,6 @@ Lightman usage:
 
     -h, --help                       output usage information
     -V, --version                    output the version number
-    -p, --password <password>        Use password [blah]
-    -u, --username <username>        Use username [blah]
     -t, --team [team]                Use team
     -c, --csr [csr file]             Use csr file
     -bn, --bundlename [bundle name]  Use bundle name
@@ -37,11 +35,13 @@ Lightman usage:
 
 Supported Commands:
 
-* createDevCert - create development certificate (username, password, team, csr)
-* createDistCert - create distribution certificate (username, password, team, csr)
-* createAppID - create app id (username, password, team, bundle name, bundle id)
-* configureAppIDForDistPush - configure app id for push (username, password, team, csr, bundle name)
-* listTeams - list teams you belong to (username, password)
+* login - logs you in (saves to keychain)
+* logout
+* certs:create:dev - create development certificate
+* certs:create:dist - create distribution certificate
+* appid:create - create app id
+* appid:configure:push - configure app id for push
+* teams:list - list teams you belong to
  
 
 ### Other Stuff:
