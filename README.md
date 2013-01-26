@@ -20,7 +20,6 @@ Lightman uses an [Inception](http://4.bp.blogspot.com/_OORyagu8ETY/TE9PNl1Qq4I/A
 Lightman usage:
 
 ````
-
 Usage: lightman [options] <command>
 
 Options:
@@ -31,16 +30,19 @@ Options:
   -c, --csr [csr file]             Use csr file
   -bn, --bundlename [bundle name]  Use bundle name
   -bi, --bundleid [bundle id]      Use bundle id
+  -dn, --devicename [device name]  Use device nam
+  -di, --deviceid [device id]      Use device id
 
 Commands:
 
   login - logs you in (saves to keychain)
   logout
   whoami - who am i logged in as?
-  cert:create:dev - create development certificate (REQ: csr OPTIONAL: team)
-  cert:create:dist - create distribution certificate (REQ: csr OPTIONAL: team)
-  appid:create - create app id (REQ: bundlename,bundleid OPTIONAL: team)
-  appid:configure:push - configure app id for push (REQ: bundlename,csr OPTIONAL: team)
+  cert:create:dev - create development certificate
+  cert:create:dist - create distribution certificate
+  appid:create - create app id
+  appid:configure:push - configure app id for push
+  device:addid - add device id
   team:list - list teams you belong to
 
 ````
