@@ -49,6 +49,7 @@ Commands:
 
 ### Other Stuff:
 
+* Loosely based on [Cupertino](https://github.com/mattt/cupertino) by @mattt
 * I also include some shell scripts for doing things like:
   * creating a CSR
   * importing a certificate
